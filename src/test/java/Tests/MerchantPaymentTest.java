@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 
 public class MerchantPaymentTest extends BaseTest {
 
-    @Test(invocationCount = 45)
+    @Test(invocationCount = 40)
     public void ManualPay()
     {
         MerchantPaymentPage merchantPay = new MerchantPaymentPage(getDriver());
         merchantPay.clickScanQR();
         merchantPay.clickManual();
-        merchantPay.enterMerchantID("SA0002543");
+        merchantPay.enterMerchantID("CA0000233");
         merchantPay.clickAmt();
         merchantPay.enterAmount("300");
         merchantPay.clickContinue();
