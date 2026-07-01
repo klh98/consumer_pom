@@ -28,7 +28,6 @@ public class ViberPlusPage {
     private final By closeBtn = AppiumBy.xpath("(//android.widget.ImageView)[2]");
 
     // Actions
-
     public void openBills() {
         BaseTest.getDriver().findElement(billsAndPayments).click();
     }
