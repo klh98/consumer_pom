@@ -25,7 +25,7 @@ public class BaseTest {
 
         options.setAutomationName("UiAutomator2");
         options.setPlatformName("Android");
-        options.setUdid("falrijtck78xrkhe");
+//        options.setUdid("falrijtck78xrkhe");
 
         options.setAppPackage("com.jits.mbanking.abank.consumer.uat3");
         options.setAppActivity("com.jits.mbanking.abank.consumer.MainActivity");
