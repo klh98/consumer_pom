@@ -21,7 +21,7 @@ public class EAPlayProTest extends BaseTest {
         EAPlayPro.clickNext();
         EAPlayPro.clickSelect();
         EAPlayPro.clickBuyNow();
-        EAPlayPro.enterPin("107198");
+        EAPlayPro.enterPin("107198");   //put your password 
         EAPlayPro.clickBackBtn();
     }
 
